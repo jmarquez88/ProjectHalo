@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Project2.clsController">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAAKAAAAEAAAIAAIAIQBAAAAMAQAAAACAAAAgAAAQ=</HashCode>
+      <FileName>clsController.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="clsOrder" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Project2.clsOrder">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gUoFAKAQBAEEgEAwAQAASKAsZgQYw6IAAGAAAIgYAAU=</HashCode>
+      <FileName>clsOrder.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="clsOrderDetail" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Project2.clsOrderDetail">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIAAAAAQEEAAAAAAAAAIAEwAAEAQIAAGAAAIAAAAA=</HashCode>
+      <FileName>clsOrderDetail.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project2.frmMain">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAoAIAACMJAAmAAASIUAADAhICEgACQDjEAAEwAIQ=</HashCode>
+      <FileName>frmMain.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="frmChild" />
+      <Property Name="clsController" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Project2.frmChild">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MUkAgiLAMDAK2AEEI5SUCEiCZHD/IBgA8AkBYAcAQ4Q=</HashCode>
+      <FileName>frmOrder.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
